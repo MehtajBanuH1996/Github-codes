@@ -7,8 +7,8 @@ import cv2
 from twilio.rest import Client
 
 app = Flask(__name__)
-account_sid = "AC53b80c334dade13148b3dad79e8ec938"
-auth_token = "11feadc8f84537b847d6c0ef68c3dfbf"
+account_sid = ""
+auth_token = ""
 client = Client(account_sid, auth_token)
 
 
